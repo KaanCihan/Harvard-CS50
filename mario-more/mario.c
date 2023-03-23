@@ -9,6 +9,13 @@ int main(void)
     // TODO: Creating the pyramid
     for (int i = 0; i < height; i++)
     {
-        for (int j = 0; j < height - 1; j++)
+        for (int j = 0; j <= height - i ; j++)
+        {
+            printf(" ");
+        }
+
+        for (int x = 0; x < height - j; x++){
+
+        }
     }
 }
