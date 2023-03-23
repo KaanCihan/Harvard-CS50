@@ -9,6 +9,6 @@ int main(void)
     // TODO: Creating the pyramid
     for (int i = 0; i < height; i++)
     {
-        
+        for (int j = 0; j < height - 1; j++)
     }
 }
