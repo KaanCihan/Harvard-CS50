@@ -4,8 +4,13 @@
 int main(void)
 {
     // TODO: Prompt for height
-    int height = get_int("Height: ");
-
+    int height;
+    do
+    {
+    height = get_int("Height: ");
+    }
+    while(height < 1);
+    
     // TODO: Creating the pyramid
     for (int i = 0; i <= height; i++)
     {
