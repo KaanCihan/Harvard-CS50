@@ -9,8 +9,8 @@ int main(void)
     {
     height = get_int("Height: ");
     }
-    while(height < 1);
-    
+    while(height < 1 || height > 8);
+
     // TODO: Creating the pyramid
     for (int i = 0; i <= height; i++)
     {
