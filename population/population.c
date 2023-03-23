@@ -4,6 +4,7 @@
 int main(void)
 {
     // TODO: Prompt for start size
+    while
     int startingPop = get_int("What is the starting population?");
     // TODO: Prompt for end size
     int endingPop = get_int("What is the ending population?")
